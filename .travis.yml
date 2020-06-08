@@ -1,0 +1,6 @@
+language: csharp
+mono: none
+dotnet: 2.1.502
+solution: ConsoleApp1/ConsoleApp1.sln
+script:
+  - dotnet test UnitTestProject1/UnitTestProject1.csproj
